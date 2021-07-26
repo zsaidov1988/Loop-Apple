@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+  min-width: 1000px;
+}
+
+.container{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  min-width: 1000px;
+  padding-bottom: 200px;
+  margin-top: 20px;
+  background-image: url(../img/watches.jpg);
+  background-repeat: no-repeat;
+  background-position: right -275px bottom 0;
+  background-size: 650px;
+  border-bottom: 1px solid #B2B2B1;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-list{
+  display: flex;
+}
+
+.menu-item{
+  margin-right: 30px;
+}
+
+.menu-link {
+  display: inline-block;
+  padding-bottom: 6px;
+  color: #B2B2B1;
+}
+
+.menu-link:hover{
+  color: black;
+}
+
+.navbar-input {
+  width: 161px;
+  color: #B2B2B1;
+  padding-bottom: 6px;
+  border: none;
+  border-bottom: 1px solid #BCBCBD;
+}
+
+.navbar-input:focus {
+  outline: none;
+}
+
+.hero{
+  margin-top: 150px;
+  width: 450px;
+}
+
+.hero-heder{
+  font-size: 46px;
+}
+
+.hero-text{
+  color: #B2B2B1;
+  padding-left: 40px;
+  font-size: 16px;
+  border-left: 2px solid #B2B2B1;
+  margin-top: 60px;
+  line-height: 1.5;
+}
+
+.hero-link{
+  font-size: 16px;
+  margin-top: 40px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #EA625C;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.hero-link:hover{
+  background-color: #e74a42;
+}
+
+.articles{
+  margin-top: 50px;
+}
+
+.articles-list{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.articles-item{
+  width: 300px;
+}
+
+.articles-header{
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.articles-text{
+  margin-top: 60px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #606163;
+}
+
+.point{
+  display: inline-block;
+  background-color: #D6D7D7;
+  width: 5px;
+  height: 5px;
+  margin-right: 10px;
+}
+
+.articles-link{
+  color: #ee605b;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+} 
+
+.line{
+  display: inline-block;
+  background-color: #ee605b;
+  width: 30px;
+  height: 3px;
+  margin-right: 10px;
+  margin-bottom: 4px;
+  transition: all 0.5s ease;
+}
+
+.articles-link:hover .line{
+  width: 40px;
+}
+
+.buy{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy-img{
+  width: 430px;
+  height: 650px;
+}
+
+.null-margin-top{
+  margin-top: 0;
+}
+
+.footer{
+  min-width: 1000px;
+  padding-top: 245px;
+  padding-bottom: 185px;
+  margin-top: 50px;
+  background-image: url(../img/runners.jpg);
+  background-size: cover;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.white-text{
+  color: #fff;
+}
+
+.white-border {
+  border-left: 2px solid #fff;
+}
